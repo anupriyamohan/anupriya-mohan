@@ -7,11 +7,16 @@
 .resume-body{
   background-image:url('https://images.unsplash.com/photo-1577200080776-fe8b6c5559dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE4fHxiYWNrZ3JvdW5kJTIwaW1hZ2V8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60');
 }
-* {
+html {
   box-sizing: border-box;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 h3{
-  color:hotpink;
+  color:rgb(3, 0, 100);
   font-family: 'Lobster', cursive; 
   font-size: 2em;
   text-transform: uppercase;
@@ -49,10 +54,24 @@ color: rgb(0, 0, 0);
 margin-left: auto;
 margin-right:auto ;
 font-family: 'PT Serif', serif;
-
+}
+.col{
+  color: white;
+}
+.contact_div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
 }
 .contact{
   align-items: center;
+}
+.col1{
+  background-color: #102d13;
+}
+.col2{
+  background-color: #ffffff;
 }
 
 /* Create two equal columns that floats next to each other */
@@ -76,7 +95,7 @@ font-family: 'PT Serif', serif;
   -moz-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-size: 1.3em;
+  font-size: 2.5em;
 }
 
 
